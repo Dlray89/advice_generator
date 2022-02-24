@@ -23,7 +23,7 @@ function App() {
 
   return loading ? (
     <div className='loading'>
-      <CircularProgress />
+      <CircularProgress style={{ color: '#56FDAB' }} />
     </div>
 
   ) : (
