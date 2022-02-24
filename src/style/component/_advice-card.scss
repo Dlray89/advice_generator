@@ -1,7 +1,13 @@
+.loading {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 .card-container {
   @include cardContainer;
-
-  
 
   &__title {
     @include cardTitle;
@@ -16,17 +22,16 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: transparent;
+    background-color: $transparent-bg;
   }
 
   &__btn {
     @include cardBtn;
     width: 68px;
     height: 68px;
-    
 
     &__icon {
-      background-color: transparent;
+      background-color: $transparent-bg;
     }
 
     &:hover {
@@ -38,7 +43,4 @@
 span {
   border-bottom: solid 1px $line-blk;
   width: 40%;
-  display: inline;
 }
-
-

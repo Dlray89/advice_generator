@@ -13,6 +13,13 @@
   background-color: #202632;
 }
 
+.loading {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .card-container {
   background-color: #313A49;
   width: 542px;
@@ -73,7 +80,6 @@
 span {
   border-bottom: solid 1px #4F5D74;
   width: 40%;
-  display: inline;
 }
 
 @media (max-width: 545px) {
