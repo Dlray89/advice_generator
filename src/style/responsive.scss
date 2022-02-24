@@ -1,0 +1,44 @@
+@media (max-width: $layout-breakpoint-med) {
+    .card-container {
+      width: 450px;
+
+      
+  
+      &__quotes {
+        font-size: 24px;
+      }
+  
+      &__btn {
+        left: 43%;
+      }
+    }
+  }
+  
+  @media (max-width: $layout-breakpoint-small-med) {
+    .card-container {
+      width: 400px;
+  
+      &__quotes {
+        font-size: 24px;
+      }
+  
+      &__btn {
+        left: 41%;
+      }
+    }
+  }
+  
+  @media (max-width: $layout-breakpoint-small) {
+    .card-container {
+      width: 335px;
+  
+      &__quotes {
+        font-size: 24px;
+      }
+  
+      &__btn {
+        left: 40%;
+      }
+    }
+  }
+  

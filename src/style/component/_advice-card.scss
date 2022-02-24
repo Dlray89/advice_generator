@@ -1,0 +1,45 @@
+.card-container {
+  @include cardContainer;
+
+  
+
+  &__title {
+    @include cardTitle;
+  }
+
+  &__quotes {
+    @include cardAdvice;
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  &__dividers {
+    margin: 40px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  &__btn {
+    @include cardBtn;
+    width: 68px;
+    height: 68px;
+    
+
+    &__icon {
+      background-color: transparent;
+    }
+
+    &:hover {
+      box-shadow: $hover-shadow;
+    }
+  }
+}
+
+span {
+  border-bottom: solid 1px $line-blk;
+  width: 40%;
+  display: inline;
+}
+
+

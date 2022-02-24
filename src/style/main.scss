@@ -1,0 +1,9 @@
+//Utils
+@import './utils/mixins.scss';
+@import './utils/variables.scss';
+@import './utils/animation.scss';
+
+//Advice page
+@import './_rest.scss';
+@import './component/advice-card';
+@import './responsive.scss';
