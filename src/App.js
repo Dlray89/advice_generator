@@ -5,7 +5,6 @@ import axios from 'axios'
 
 function App() {
   const [quotes, setQuotes] = useState('')
-
   const api_url = 'https://api.adviceslip.com/advice'
 
   const generateQuotes = () => {
@@ -22,17 +21,12 @@ function App() {
   return (
     <>
       <div className="card-container">
-        <h4 className="card-container__title">Advice #{ quotes.id}</h4>
-
+        <h4 className="card-container__title">Advice #{quotes.id}</h4>
         <p className="card-container__quotes">&ldquo; {quotes.advice} &rdquo;</p>
-
         <div className="card-container__dividers">
-          <span  /><img src={quoteIcon} alt='quotes icon' /><span/>
+          <span /><img src={quoteIcon} alt='quotes icon' /><span />
         </div>
-
         <button className='card-container__btn' onClick={generateQuotes}> <img src={diceIcon} alt='dice icon' className='card-container__btn__icon' /></button>
-
-
       </div>
     </>
   );
