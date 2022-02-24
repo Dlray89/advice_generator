@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Frontend Challenge - Advice generator app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Advice generator app coding challenge](https://www.figma.com/file/LcteLYZ7VA0ONPoBKSDAHe/Advice-UI)
 
-## Available Scripts
+**To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
-In the project directory, you can run:
+## The challenge
 
-### `npm start`
+Your challenge is to build out this advice generator app using the [Advice Slip API](https://api.adviceslip.com) and get it looking and working as close to the design as possible. Aspects of this challenge range in difficulty.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Your users should be able to:
 
-### `npm test`
+- View the optimal layout for the app depending on their device's screen size. Please ensure a responsive design for screens from 375px - 1440px.
+- See hover states for all interactive elements on the page
+- See animations for state transitions
+- Generate a new and random piece of advice by clicking the circular dice icon button
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Where to find everything
 
-### `npm run build`
+Your task is to build out the project to the designs visible here: https://www.figma.com/file/LcteLYZ7VA0ONPoBKSDAHe/Advice-UI. You will need to create a Figma account in order to fully use the inspect features of Figma. You will find both a mobile and a desktop version of the design, although the desktop prototype is the only one that shows interactions. All interactions on the desktop prototype should be applied to the mobile version.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You will find all the required assets in the `/images` folder. The assets are already optimized.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How your work will be evaluated
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**You have two goals in this order.**
 
-### `npm run eject`
+1. Provide the best user experience to your users. This includes making sure the design and interactions are as close to the mockups as possible. This also includes performance optimization so that your users have the fastest and most compatible website that works on the bulk of web platforms in 2022.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Provide the best development experience for you and your team. This includes using modern and flexible development practices, file/folder structure and organization, clean code with comments where necessary, etc.
+*(If you run low on time, skimp on this goal and when we review your solution, you can talk about what you would have improved if you had more time)*
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Building your project
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feel free to use any workflow that you feel comfortable with. Below is a list of suggested resources and tips:
 
-## Learn More
+1. CSS Animations - https://animate.style/
+2. CSS Preprocessor - https://sass-lang.com/
+3. Advice Generator API - https://api.advicesls
+lip.com
+4. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
+5. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
+6. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
+7. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Submitting your solution
 
-### Code Splitting
+Please send a ZIP of your completed app to **dalves@morrisgroup.co**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Have fun building!** 🚀
+# advice_generator
