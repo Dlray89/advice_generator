@@ -58,6 +58,9 @@
   align-items: center;
   background-color: transparent;
 }
+.card-container__dividers__quote-icon {
+  background-color: transparent;
+}
 .card-container__btn {
   position: fixed;
   left: 44%;

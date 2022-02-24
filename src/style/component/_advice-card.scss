@@ -23,6 +23,10 @@
     justify-content: space-around;
     align-items: center;
     background-color: $transparent-bg;
+
+    &__quote-icon{
+      background-color: $transparent-bg
+    }
   }
 
   &__btn {

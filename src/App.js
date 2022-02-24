@@ -32,7 +32,7 @@ function App() {
       <h4 className="card-container__title">Advice #{quotes.id}</h4>
       <p className="card-container__quotes" >&ldquo; {quotes.advice} &rdquo;</p>
       <div className="card-container__dividers">
-        <span /><img src={quoteIcon} alt='quotes icon' /><span />
+        <span /><img className="card-container__dividers__quote-icon" src={quoteIcon} alt='quotes icon' /><span />
       </div>
       <button className='card-container__btn' onClick={generateQuotes}> <img src={diceIcon} alt='dice icon' className='card-container__btn__icon' /></button>
     </div>
